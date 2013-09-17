@@ -45,4 +45,4 @@ opt.control         = struct('maxbbox',maxbbox,'update_detector',update_detector
 
 % Save results ------------------------------------------------------------
 dlmwrite([opt.output '/tld.txt'],[bb; conf]');
-disp('Results saved to ./_output.');
+disp('Results saved to ./_output.'); 
